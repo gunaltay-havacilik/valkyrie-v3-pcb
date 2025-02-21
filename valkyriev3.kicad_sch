@@ -1,0 +1,313 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d24fd15c-a242-4d26-9876-7755ca0d378c")
+	(paper "A4")
+	(title_block
+		(title "Valkyrie Flight Computer V3")
+		(rev "1.0")
+		(company "Süalp K.")
+	)
+	(lib_symbols)
+	(sheet
+		(at 26.67 55.88)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00fc6d2a-79f7-4b02-8c94-ea393adce81b")
+		(property "Sheetname" "GPS"
+			(at 26.67 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS.kicad_sch"
+			(at 26.67 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 45.72)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0956f2c5-d311-4a6e-b6b6-3effe6c70a2d")
+		(property "Sheetname" "IMU"
+			(at 26.67 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 26.67 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 66.04)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15c0363f-221d-49cb-89b5-29e3b8f192aa")
+		(property "Sheetname" "Communications"
+			(at 26.67 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "communications.kicad_sch"
+			(at 26.67 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 86.36)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6620a15d-5243-4c14-a303-2b39928e4e3b")
+		(property "Sheetname" "Connectors"
+			(at 26.67 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 26.67 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 35.56)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "739f0b15-c53d-4f01-9ae2-b7e797c20069")
+		(property "Sheetname" "Power"
+			(at 26.67 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 26.67 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 76.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7960c202-2f99-4ea9-a1f3-7ea4b542ac46")
+		(property "Sheetname" "Baro"
+			(at 26.67 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Baro.kicad_sch"
+			(at 26.67 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d62cb9a5-57b0-46af-b3af-5759837aeb39")
+		(property "Sheetname" "MCU"
+			(at 26.67 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 26.67 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
