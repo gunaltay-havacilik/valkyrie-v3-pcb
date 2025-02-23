@@ -452,7 +452,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -13.97 3.81 0)
 					(length 2.54)
 					(name "AP_AD0"
@@ -470,7 +470,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -13.97 1.27 0)
 					(length 2.54)
 					(name "RESV"
@@ -488,7 +488,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -13.97 -1.27 0)
 					(length 2.54)
 					(name "RESV"
@@ -614,7 +614,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 2.54 -13.97 90)
 					(length 2.54)
 					(name "RESV"
@@ -632,7 +632,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "RESV"
@@ -650,7 +650,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "RESV"
@@ -708,6 +708,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I2C ADDRESS\n0x69\n(nice)"
+		(exclude_from_sim no)
+		(at 98.044 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7559182b-2e00-43d1-a4c6-0c50988476e8")
+	)
 	(junction
 		(at 152.4 90.17)
 		(diameter 0)
@@ -737,6 +747,10 @@
 	(no_connect
 		(at 138.43 87.63)
 		(uuid "20fd184a-646c-4c1a-bfd8-b47195555daa")
+	)
+	(no_connect
+		(at 127 100.33)
+		(uuid "22329164-0a61-4c51-a7b1-6c99d09ad488")
 	)
 	(no_connect
 		(at 110.49 85.09)
@@ -1015,76 +1029,6 @@
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/0956f2c5-d311-4a6e-b6b6-3effe6c70a2d"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 152.4 93.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "116b40f4-cb87-4aad-8da2-62f571839d3d")
-		(property "Reference" "C27"
-			(at 154.94 92.7162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22 uF"
-			(at 154.94 95.2562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52f95d6a-f568-4943-8699-a31cbe1306a5")
-		)
-		(pin "2"
-			(uuid "847d0e7d-508e-49a8-926c-7694e58882eb")
-		)
-		(instances
-			(project "valkyriev3"
-				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/0956f2c5-d311-4a6e-b6b6-3effe6c70a2d"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1523,6 +1467,76 @@
 			(project ""
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/0956f2c5-d311-4a6e-b6b6-3effe6c70a2d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 152.4 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acf8d68c-58e1-4a78-a809-2879f2dbb24b")
+		(property "Reference" "C35"
+			(at 154.94 92.7162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 154.94 95.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54060646-42b7-4603-a9c8-853e5cb503a5")
+		)
+		(pin "2"
+			(uuid "08c3e6b3-9390-4c57-93fa-b3281611fd20")
+		)
+		(instances
+			(project "valkyriev3"
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/0956f2c5-d311-4a6e-b6b6-3effe6c70a2d"
+					(reference "C35")
 					(unit 1)
 				)
 			)
