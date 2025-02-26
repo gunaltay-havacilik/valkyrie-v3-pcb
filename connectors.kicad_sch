@@ -1014,6 +1014,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-PowerSymbol:VBATT"
 			(power)
 			(pin_names
@@ -2957,7 +3040,29 @@
 			)
 		)
 	)
-	(global_label "EXP_RXD1"
+	(global_label "ESP_RXD0"
+		(shape input)
+		(at 109.22 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1698002f-3609-4d03-bfed-7b3559e3d4dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.6797 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "EXP_RXD2"
 		(shape input)
 		(at 109.22 123.19 180)
 		(fields_autoplaced yes)
@@ -2979,7 +3084,7 @@
 			)
 		)
 	)
-	(global_label "ESP_TXD2"
+	(global_label "ESP_TXD1"
 		(shape input)
 		(at 66.04 128.27 180)
 		(fields_autoplaced yes)
@@ -3001,7 +3106,7 @@
 			)
 		)
 	)
-	(global_label "ESP_TXD1"
+	(global_label "ESP_TXD2"
 		(shape input)
 		(at 109.22 120.65 180)
 		(fields_autoplaced yes)
@@ -3014,28 +3119,6 @@
 		(uuid "4af3626f-d31e-476c-ad3c-9dbdc1ee2396")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.9821 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_RXD0"
-		(shape input)
-		(at 109.22 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51103121-c6ec-4601-86c4-1e59ffd5dc5a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6797 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3152,7 @@
 	)
 	(global_label "ESP_TXD0"
 		(shape input)
-		(at 109.22 143.51 180)
+		(at 109.22 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3077,9 +3160,9 @@
 			)
 			(justify right)
 		)
-		(uuid "aa85ba2b-89f3-44f5-89f0-0e0ce0da4b63")
+		(uuid "b8b0a6a7-2cb8-4548-9b45-360d1305d1a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9821 143.51 0)
+			(at 96.9821 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3194,7 @@
 			)
 		)
 	)
-	(global_label "ESP_RXD2"
+	(global_label "ESP_RXD1"
 		(shape input)
 		(at 66.04 130.81 180)
 		(fields_autoplaced yes)
@@ -4040,6 +4123,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 119.38 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5335a741-f573-466f-927c-84172517dce3")
+		(property "Reference" "H1"
+			(at 149.86 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 149.86 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 91.44 81.28 0)
 		(unit 1)
@@ -4174,6 +4321,70 @@
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 124.46 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "629f219d-e99c-4b4f-ac64-bc62a5dc0ae1")
+		(property "Reference" "H2"
+			(at 149.86 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 149.86 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4655,6 +4866,70 @@
 			(project ""
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81922849-7144-4436-bfb0-5efc0f5db8dc")
+		(property "Reference" "H4"
+			(at 149.86 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 149.86 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5540,6 +5815,70 @@
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 147.32 129.54 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e847205d-0ac6-4b25-8674-c330b12af48d")
+		(property "Reference" "H3"
+			(at 149.86 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 149.86 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 147.32 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/6620a15d-5243-4c14-a303-2b39928e4e3b"
+					(reference "H3")
 					(unit 1)
 				)
 			)
