@@ -498,7 +498,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "valkyriev3.step",
       "svg": "",
       "vrml": ""
     },
@@ -582,7 +582,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "D*",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",

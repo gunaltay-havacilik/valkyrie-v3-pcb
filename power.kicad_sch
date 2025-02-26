@@ -3370,7 +3370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun-Capacitor:C_0805_2012Metric"
+		(property "Footprint" "Valkyrie_footprints:HPC 5020NF"
 			(at 118.11 78.74 0)
 			(effects
 				(font

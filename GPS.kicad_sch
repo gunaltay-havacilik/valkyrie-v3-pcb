@@ -2144,7 +2144,7 @@
 			)
 		)
 	)
-	(global_label "EXP_RXD2"
+	(global_label "ESP_RXD2"
 		(shape input)
 		(at 133.35 104.14 180)
 		(fields_autoplaced yes)

@@ -7412,7 +7412,7 @@
 			)
 		)
 	)
-	(global_label "EXP_RXD1"
+	(global_label "ESP_RXD1"
 		(shape input)
 		(at 100.33 93.98 180)
 		(fields_autoplaced yes)
@@ -9155,7 +9155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c763c4-f70a-40ff-afae-fd456f193a66")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 224.79 90.17 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 		(instances
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/d62cb9a5-57b0-46af-b3af-5759837aeb39"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12884,7 +12884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f34ad3-3b3c-4510-9437-04cb6032ec15")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 64.77 81.28 0)
 			(effects
 				(font
@@ -12934,7 +12934,7 @@
 		(instances
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/d62cb9a5-57b0-46af-b3af-5759837aeb39"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -13238,7 +13238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3537fea-69c6-4e93-9e0e-bf3e7db6074a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -13288,7 +13288,7 @@
 		(instances
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/d62cb9a5-57b0-46af-b3af-5759837aeb39"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13486,7 +13486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e497546a-f30d-4e33-8985-331bc8f41d84")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 38.1 81.28 0)
 			(effects
 				(font
@@ -13536,7 +13536,7 @@
 		(instances
 			(project "valkyriev3"
 				(path "/d24fd15c-a242-4d26-9876-7755ca0d378c/d62cb9a5-57b0-46af-b3af-5759837aeb39"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
