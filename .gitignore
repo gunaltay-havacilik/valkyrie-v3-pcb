@@ -20,6 +20,7 @@ _autosave-*
 fp-info-cache
 /build
 /valkyriev3-backups
+/production/backups
 
 # Netlist files (exported from Eeschema)
 *.net
