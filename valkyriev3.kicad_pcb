@@ -141,6 +141,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -34341,8 +34342,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GUNALTAY ROCKET TEAM\nValkyrie V3\nFlight Computer\n\nDrawn By: Süalp K.\nVIN: 7-15V DC"
-		(at 152.8064 89.662 0)
+	(gr_text "GUNALTAY ROCKET TEAM\nValkyrie V3\nFlight Computer\n\nDrawn By: S. Kömürcüoğlu\nReviewed By: Ö.T. Önsoy\nVIN: 7-15V DC"
+		(at 152.8064 90.92 0)
 		(layer "B.SilkS")
 		(uuid "b1b6f3ab-8f13-4f3d-964b-8fc6927f74ad")
 		(effects
