@@ -141,7 +141,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -12211,7 +12210,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.14986)
 				)
 			)
 		)
@@ -16604,7 +16603,9 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 0.402633 -2.27377) (xy 0.714251 -2.192781) (xy 1.011182 -2.068621) (xy 1.286901 -1.902678) (xy 1.381734 -1.831366)
@@ -23848,7 +23849,9 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 0.402633 -2.27377) (xy 0.714251 -2.192781) (xy 1.011182 -2.068621) (xy 1.286901 -1.902678) (xy 1.381734 -1.831366)
@@ -26143,7 +26146,9 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 0.402633 -2.27377) (xy 0.714251 -2.192781) (xy 1.011182 -2.068621) (xy 1.286901 -1.902678) (xy 1.381734 -1.831366)
@@ -30353,7 +30358,9 @@
 				(justify mirror)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 7.734628 -2.410144) (xy 7.73583 -2.420032) (xy 7.70435 -2.460198) (xy 7.694462 -2.4614) (xy 7.654296 -2.42992)
@@ -31049,7 +31056,9 @@
 				(justify mirror)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 0.761999 0.101601) (xy 0.745066 0.084667) (xy 0.728132 0.101601) (xy 0.745066 0.118534)
@@ -32454,7 +32463,9 @@
 				(justify mirror)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 5.334 -3.135923) (xy 5.324231 -3.145692) (xy 5.314461 -3.135923) (xy 5.324231 -3.126154)
@@ -34491,7 +34502,9 @@
 				(justify mirror)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy 1.362241 7.692921) (xy 2.416551 7.418909) (xy 3.421168 6.998832) (xy 4.354016 6.437393) (xy 4.674867 6.196122)
@@ -34943,6 +34956,30 @@
 		(layer "Edge.Cuts")
 		(uuid "a8bacacd-d1c5-45a3-838b-66b73a0106a7")
 	)
+	(gr_text "TX0"
+		(at 155.702 126.8984 0)
+		(layer "F.SilkS" knockout)
+		(uuid "03343572-b93f-42f1-a5b3-996f7272162c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 113.8428 115.2398 0)
+		(layer "F.SilkS" knockout)
+		(uuid "0af4c80d-2a13-46e0-8d63-510cb636a5a2")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "VIN 7-15V DC"
 		(at 104.6226 55.2704 0)
 		(layer "F.SilkS")
@@ -34955,9 +34992,68 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Drawn by\nSüalp K."
-		(at 165.3032 116.6368 90)
-		(layer "F.SilkS")
+	(gr_text "3V3"
+		(at 111.8362 81.0006 0)
+		(layer "F.SilkS" knockout)
+		(uuid "169308c5-5ba0-482e-a8c7-c70327c3509d")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 155.508476 129.413 0)
+		(layer "F.SilkS" knockout)
+		(uuid "476f0a7d-138f-4d82-92f2-bd3e0a8ef666")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 113.8428 112.6998 0)
+		(layer "F.SilkS" knockout)
+		(uuid "4921da3a-648b-4ed4-8725-8633ef92eae6")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 113.8428 117.7544 0)
+		(layer "F.SilkS" knockout)
+		(uuid "56e19bfe-26c9-4f7e-8399-18731e67e514")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX1"
+		(at 138.7602 100.9142 0)
+		(layer "F.SilkS" knockout)
+		(uuid "585c0763-af72-443d-b016-152c832d1dc2")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.111125)
+			)
+		)
+	)
+	(gr_text "Drawn by\nS. KÖMÜRCÜOĞLU"
+		(at 165.354 122.4026 90)
+		(layer "F.SilkS" knockout)
 		(uuid "586e7cd3-b64c-4360-964f-0697bdd9ed2c")
 		(effects
 			(font
@@ -34967,14 +35063,37 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 138.7856 95.8342 0)
+		(layer "F.SilkS" knockout)
+		(uuid "712bd096-7c7d-4cd0-8c8f-757fe50a8f1e")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.111125)
+			)
+		)
+	)
+	(gr_text "3V3"
+		(at 138.8364 93.2942 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8c546d51-f833-466d-9d00-a03efc86af41")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.111125)
+			)
+		)
+	)
 	(gr_text "GUNALTAY ROCKET TEAM\nValkyrie V3\nFlight Computer"
 		(at 130.8608 127.508 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "979d3250-80b0-4d20-b9bb-30c6369fbe57")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.2032)
+				(bold yes)
 			)
 		)
 	)
@@ -34998,6 +35117,30 @@
 			(font
 				(size 1 1)
 				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 135.001 118.999 0)
+		(layer "F.SilkS" knockout)
+		(uuid "ba024904-b5b6-4ea5-9be4-a173c7af3133")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 127.8636 61.2902 0)
+		(layer "F.SilkS" knockout)
+		(uuid "c978f51b-abba-40e2-89c8-a24776cdb6f8")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
 			)
 			(justify left bottom)
 		)
@@ -35026,6 +35169,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TX1"
+		(at 138.7602 98.3742 0)
+		(layer "F.SilkS" knockout)
+		(uuid "d6196ffd-8e23-4d83-9fe4-59fd732d58d2")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.111125)
+			)
+		)
+	)
 	(gr_text "RST"
 		(at 130.7592 104.2924 0)
 		(layer "F.SilkS")
@@ -35038,14 +35192,97 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V"
+		(at 138.7602 90.7542 0)
+		(layer "F.SilkS" knockout)
+		(uuid "da3ceace-dfce-4c42-9598-eafd61f7956f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(gr_text "M"
+		(at 130.2258 118.999 0)
+		(layer "F.SilkS" knockout)
+		(uuid "df8ece3f-772c-4bc5-be8e-2f90edff7b35")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "RX0"
+		(at 155.581047 124.333 0)
+		(layer "F.SilkS" knockout)
+		(uuid "f00a5f09-0c75-472f-81c8-e62054025688")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "U"
+		(at 125.5522 118.999 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fe8aa7a9-1c18-4690-9847-9f34a92b9275")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "TX2"
+		(at 104.7242 136.4996 0)
+		(layer "B.SilkS" knockout)
+		(uuid "2e8d5709-cb6b-41ba-be6a-559329b20c46")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "RX2"
+		(at 104.8004 134.0104 0)
+		(layer "B.SilkS" knockout)
+		(uuid "444a66c0-c161-4004-8978-a9aedf11124b")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 106.4768 131.4196 0)
+		(layer "B.SilkS" knockout)
+		(uuid "91c4705e-f0f9-42c1-899b-b8315b62f8e6")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "GUNALTAY ROCKET TEAM\nValkyrie V3\nFlight Computer\n\nDrawn By: S. KÖMÜRCÜOĞLU\nReviewed By: Ö.T. ÖNSOY\n\nVIN: 7-15V DC"
 		(at 152.8064 91.694 0)
-		(layer "B.SilkS")
+		(layer "B.SilkS" knockout)
 		(uuid "b1b6f3ab-8f13-4f3d-964b-8fc6927f74ad")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.125)
+				(thickness 0.1524)
 			)
 			(justify mirror)
 		)
