@@ -141,6 +141,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -21712,15 +21713,15 @@
 			(uuid "6624b591-208d-466a-bdd8-dd84a3e87228")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-16_Vertical.wrl"
+		(model "${KIPRJMOD}/3d-files/SMA CONNECTOR--3DModel-STEP-1.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -30024,15 +30025,15 @@
 			(uuid "4f011d2b-7930-43c9-8ff1-3c549b12e054")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Amphenol_132134-16_Vertical.wrl"
+		(model "${KIPRJMOD}/3d-files/SMA CONNECTOR--3DModel-STEP-1.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 -4)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
