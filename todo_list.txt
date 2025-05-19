@@ -1,0 +1,7 @@
+- LoRa antenini sağa çek
+- USB VBUS -> DIODE -> 5V (pil ve usb aynı anda takılınca pc yanmasın)
+- LoRa M0 ve M1 pinleri ve ESP GPIO pinleri arasına bjt, esp tek başına süremiyor.
+- LPS22HB ve ICM-42605 arası mesafeyi arttır? (dunno)
+- Main ve drogue çıkışlarına akım limitleme devresi
+- GPS için RX ve TX'i değiştir (via kullanmamak için)
+- LoRa RX ve TX isimlendirmeyi değiştir (RX aslında TX şu anda)
